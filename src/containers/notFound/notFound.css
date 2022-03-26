@@ -1,0 +1,10 @@
+.app__notFound{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app__notFound p{
+ text-align: center;
+ font-size: 3rem;
+ font-weight: 800;
+}

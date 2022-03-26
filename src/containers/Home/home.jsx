@@ -1,11 +1,20 @@
 import React from 'react'
+import { useSelector } from 'react-redux'
+import Product from '../../components/product/Product';
 import './home.css'
-const home = () => {
+
+function Home () {
+  
+   const products = useSelector(state => state.products.products);
   return (
     <div className='app__home page__height section__padding'>
-      home
+      {
+        products.map((item) => (
+          <Product image={item.productImage} name={item.productName} price={item.productPrice} id={item.id}/>
+        ))
+      }
     </div>
   )
 }
 
-export default home
+export default Home;
