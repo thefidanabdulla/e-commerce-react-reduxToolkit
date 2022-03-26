@@ -1,0 +1,50 @@
+.app__navbar{
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color-green);
+    -webkit-border-radius: 0 0 15px 15px;
+    -moz-border-radius: 0 0 15px 15px;
+    -ms-border-radius: 0 0 15px 15px;
+    -o-border-radius: 0 0 15px 15px;
+    border-radius: 0 0 15px 15px;
+}
+.app__navbar-logo p{
+    font-size: 35px;
+    line-height: 45px;
+    color: #fff;
+    font-weight: 800;
+}
+.app__navbar-cart{
+    position: relative;
+    width: 50px;
+    height: 40px
+}
+.app__navbar-cart svg{
+    font-size: 35px;
+    color: #fff;
+}
+.app__navbar-cart_quantity{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-red);
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+.app__navbar-cart_quantity p{
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+}

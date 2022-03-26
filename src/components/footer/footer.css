@@ -1,0 +1,10 @@
+.app__footer{
+    padding: 1rem;
+    background: var(--color-footer)
+}
+.app__footer p{
+    color: #fff;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+}
