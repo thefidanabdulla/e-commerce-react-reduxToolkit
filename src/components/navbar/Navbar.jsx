@@ -1,8 +1,9 @@
 import React from "react";
 import { FaShoppingCart } from "react-icons/fa";
+import { useDispatch, useSelector } from "react-redux";
 import { NavLink } from "react-router-dom";
 import "./navbar.css";
-const Navbar = () => {
+function Navbar() {
   return (
     <nav className="app__navbar">
       <NavLink to={"/"}>

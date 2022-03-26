@@ -1,0 +1,94 @@
+.app__cartItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    margin: 10px 0;
+    padding: 15px;
+    -webkit-box-shadow: 5px 6px 15px -3px rgba(0,0,0,0.35);
+    box-shadow: 5px 6px 15px -3px rgba(0,0,0,0.35);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border-radius: 15px;
+}
+.app__cartItem-info{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.app__cartItem-info_image{
+    height: 100%;
+    width: 200px;
+}
+.app__cartItem-info_image img{
+    height: 100%;
+}
+.app__cartItem-info_about h2{
+    font-size: 2rem;
+    line-height: 45px;
+}
+.app__cartItem-info_about p{
+    color: rgba(0,0,0, 0.5);
+    font-weight: 600;
+}
+.app__cartItem-info_total{
+    padding: 2rem 1rem;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.app__cartItem-info_total h3{
+    color: rgba(0,0,0, 0.7);
+    font-size: 1.5rem;
+}
+.app__cartItem-info_total-count{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.app__cartItem-info_total-count button{
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 2rem;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+.app__cartItem-info_total-count button:hover{
+    background: rgba(0,0,0,0.1);
+}
+.app__cartItem-info_total-count_num{
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    background: var(--color-green);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+}

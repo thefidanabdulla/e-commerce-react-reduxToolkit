@@ -10,7 +10,7 @@ function Home () {
     <div className='app__home page__height section__padding'>
       {
         products.map((item) => (
-          <Product image={item.productImage} name={item.productName} price={item.productPrice} id={item.id}/>
+          <Product description={item.description} image={item.productImage} name={item.productName} price={item.productPrice} id={item.id}/>
         ))
       }
     </div>

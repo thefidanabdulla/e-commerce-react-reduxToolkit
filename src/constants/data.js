@@ -4,7 +4,7 @@ const products = [
         id: 1,
         productName: "Samsung Galaxy S21",
         productDescription: "Samsung Galaxy S21 FE 5G Cell Phone, Factory Unlocked Android Smartphone, 128GB, 120Hz Display, Pro Grade Camera, All Day Intelligent Battery, US Version, Graphite",
-        productPrice: "$799",
+        productPrice: "$799.99",
         productImage: galaxyS21,
         category: "electronic"
     },
@@ -12,7 +12,7 @@ const products = [
         id: 2,
         productName: "Apple AirPods",
         productDescription: "Apple AirPods (2nd Generation)",
-        productPrice: "$152",
+        productPrice: "$152.00",
         productImage: airPod,
         category: "electronic"
     },
@@ -20,7 +20,7 @@ const products = [
         id: 3,
         productName: "Samsung Galaxy S22 Ultra",
         productDescription: "Samsung Galaxy S22 Ultra Smartphone, Factory Unlocked Android Cell Phone, 128GB, 8K Camera & Video, Brightest Display, S Pen, Long Battery Life, Fast 4nm Processor, US Version, Phantom Black",
-        productPrice: "$1,200",
+        productPrice: "$1,200.00",
         productImage: galaxyS22,
         category: "electronic"
     },
@@ -28,7 +28,7 @@ const products = [
         id: 4,
         productName: "Galaxy Watch 4",
         productDescription: "Samsung Electronics Galaxy Watch 4 44mm Smartwatch with ECG Monitor Tracker for Health Fitness Running Sleep Cycles GPS Fall Detection Bluetooth US Version, Black",
-        productPrice: "$350",
+        productPrice: "$350.00",
         productImage: galaxyWatch4,
         category: "electronic"
     },
@@ -36,7 +36,7 @@ const products = [
         id: 5,
         productName: "Apple iPhone 12 Pro",
         productDescription: "Apple iPhone 12 Pro, 256GB, Graphite - Unlocked (Renewed Premium)",
-        productPrice: "$999",
+        productPrice: "$999.99",
         productImage: iphone12Pro,
         category: "electronic"
     },
@@ -44,7 +44,7 @@ const products = [
         id: 6,
         productName: "ASUS TUF Dash 15",
         productDescription: "ASUS TUF Dash 15 (2021) Ultra Slim Gaming Laptop, 15.6” 144Hz FHD, GeForce RTX 3050 Ti, Intel Core i7-11370H, 8GB DDR4, 512GB PCIe NVMe SSD, Wi-Fi 6, Windows 10, Eclipse Grey Color, TUF516PE-AB73",
-        productPrice: "$1,400",
+        productPrice: "$1,400.00",
         productImage: asusTuff,
         category: "electronic"
     },
@@ -52,7 +52,7 @@ const products = [
         id: 7,
         productName: "CYBERPOWERPC Gamer Xtreme VR Gaming PC",
         productDescription: "CYBERPOWERPC Gamer Xtreme VR Gaming PC, Intel Core i5-11400F 2.6GHz, 8GB DDR4, GeForce RTX 2060 6GB, 500GB NVMe SSD, WiFi Ready & Win 11 Home (GXiVR8060A11)",
-        productPrice: "$1,009",
+        productPrice: "$1,009.99",
         productImage: cyberPowerGamer,
         category: "electronic"
     },
@@ -60,7 +60,7 @@ const products = [
         id: 8,
         productName: "ASUS ROG Strix Scar 15 ",
         productDescription: "ASUS ROG Strix Scar 15 (2022) Gaming Laptop, 15.6” 300Hz IPS FHD Display, NVIDIA GeForce RTX 3070 Ti,Intel Core i9 12900H, 16GB DDR5, 1TB SSD, Per-Key RGB Keyboard, Windows 11 Home, G533ZW-AS94",
-        productPrice: "$1,999",
+        productPrice: "$1,999.99",
         productImage: asusRogStrix,
         category: "electronic"
     },

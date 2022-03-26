@@ -1,0 +1,14 @@
+.app__cart-total{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+.app__cart-total h3{
+    font-size: 3rem;
+}
+.app__cart-total-amount{
+    font-size: 2rem;
+}
