@@ -1,9 +1,15 @@
 import React from "react";
 import { FaShoppingCart } from "react-icons/fa";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 import { NavLink } from "react-router-dom";
 import "./navbar.css";
+
+
+
 function Navbar() {
+
+  const cartItemsLeng =  useSelector(state => state.cart.cartData.length);
+
   return (
     <nav className="app__navbar">
       <NavLink to={"/"}>
@@ -15,7 +21,7 @@ function Navbar() {
         <div className="app__navbar-cart">
           <FaShoppingCart />
           <div className="app__navbar-cart_quantity">
-            <p>0</p>
+            <p>{cartItemsLeng}</p>
           </div>
         </div>
       </NavLink>

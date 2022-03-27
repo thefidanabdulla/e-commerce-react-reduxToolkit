@@ -4,6 +4,7 @@ import './cart.css';
 import CartItem from '../../components/cartItem/CartItem';
 const Cart = () => {
   const cartItems = useSelector(state => state.cart.cartData) 
+  console.log(cartItems);
   return (
     <div className='app__cart page__height section__padding'>
       {

@@ -1,4 +1,5 @@
 import {airPod, galaxyS21, galaxyS22,galaxyWatch4, macbookPro, asusRogStrix, asusVivobook, asusTuff, goPro, calestronTelescope, cyberPowerGamer, comboGimbal, iphone12Pro, lgMonitor, drone } from './images'
+
 const products = [
     {
         id: 1,

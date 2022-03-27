@@ -1,6 +1,14 @@
-import React from 'react'
-import './cartItem.css'
+import React from 'react';
+import './cartItem.css';
+import {FaTrashAlt} from 'react-icons/fa'
+import { deleteFromCart } from '../../features/cartSlice';
+import { useDispatch } from 'react-redux';
+
+
+
 const CartItem = ({ name, description, id, price, image }) => {
+
+ const dispatch = useDispatch();
   return (
     <div className='app__cartItem'>
         <div className='app__cartItem-info'>
@@ -13,6 +21,9 @@ const CartItem = ({ name, description, id, price, image }) => {
             </div>
         </div>
         <div className='app__cartItem-info_total'>
+            <button onClick={() => dispatch(deleteFromCart({id}))} className='app__cartItem-info_total-trash'>
+                <FaTrashAlt />
+            </button>
             <h3>{price}</h3>
             <div className='app__cartItem-info_total-count'>
                 <button type='button'>+</button>

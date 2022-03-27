@@ -1,16 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { galaxyS21 } from "../constants/images";
 const initialState = {
-    cartData: [
-        {
-            id: 1,
-            productName: "Samsung Galaxy S21",
-            productDescription: "Samsung Galaxy S21 FE 5G Cell Phone, Factory Unlocked Android Smartphone, 128GB, 120Hz Display, Pro Grade Camera, All Day Intelligent Battery, US Version, Graphite",
-            productPrice: "$799.99",
-            productImage: galaxyS21,
-            category: "electronic"
-        }
-    ]
+    cartData: []
 };
 
 const cartSlice = createSlice({
@@ -18,9 +8,12 @@ const cartSlice = createSlice({
     initialState,
     reducers: {
         addToCart: (state, action) =>{
-            state.push(action.payload)
+            state.cartData.push(action.payload)
+        },
+        deleteFromCart: (state, action) =>{
+            state.cartData = state.cartData.filter((cartItem) => cartItem.id !== action.payload.id)
         }
     }
 })
-export const {addToCart} = cartSlice.actions;
+export const {addToCart, deleteFromCart} = cartSlice.actions;
 export default cartSlice.reducer;
