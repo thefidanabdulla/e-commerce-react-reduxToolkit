@@ -4,7 +4,6 @@ import './cart.css';
 import CartItem from '../../components/cartItem/CartItem';
 const Cart = () => {
   const cartItems = useSelector(state => state.cart.cartData) 
-  console.log(cartItems);
   return (
     <div className='app__cart page__height section__padding'>
       {
@@ -15,7 +14,7 @@ const Cart = () => {
       <div className='app__cart-total'>
         <h3>TOTAL:</h3>
         <div className='app__cart-total-amount'>
-          $1999.99
+          $400
         </div>
       </div>
     </div>

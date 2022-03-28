@@ -14,7 +14,7 @@ const Product = ({ name,  price, image, id, desciption }) => {
      </div>
      <div className='app__product-body'>
         <h2>{name}</h2>
-        <p>{price}</p>
+        <p>${price}</p>
         <button type='button' onClick={handleAddToCart}>Add</button>
      </div>
      
