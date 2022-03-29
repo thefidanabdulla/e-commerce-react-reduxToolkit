@@ -12,3 +12,35 @@
 .app__cart-total-amount{
     font-size: 2rem;
 }
+.app__cart-empty h2{
+    font-size: 3rem;
+    color: rgba(0, 0, 0, 0.3)
+}
+.app__cart-empty_button{
+    background-color:steelblue;
+    padding: 1rem 2rem;
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin: 2rem 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+.app__cart-empty_button:hover{
+    background-color: rgb(53, 108, 153);
+}

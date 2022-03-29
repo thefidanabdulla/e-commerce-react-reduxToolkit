@@ -29,6 +29,11 @@
 .app__cartItem-info_image img{
     height: 100%;
 }
+.app__cartItem-info_about{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 .app__cartItem-info_about h2{
     font-size: 2rem;
     line-height: 45px;
