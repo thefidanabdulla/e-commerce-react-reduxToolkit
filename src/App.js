@@ -3,7 +3,8 @@ import 'react-toastify/dist/ReactToastify.css'
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/navbar/Navbar';
 import Footer from './components/footer/Footer';
-import Home from './containers/home/Home'
+import Home from './containers/home/Home';
+
 import Cart from './containers/cart/Cart';
 import NotFound from './containers/notFound/NotFound';
 
