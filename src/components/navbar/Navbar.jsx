@@ -17,6 +17,9 @@ function Navbar() {
           <p>STORE</p>
         </div>
       </NavLink>
+      <div className="app__navbar-input">
+        <input type={'text'} placeholder='Search' />
+      </div>
       <NavLink to={"/cart"}>
         <div className="app__navbar-cart">
           <FaShoppingCart />

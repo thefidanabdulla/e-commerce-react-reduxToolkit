@@ -18,6 +18,19 @@
     color: #fff;
     font-weight: 800;
 }
+
+.app__navbar-input input{
+    padding: 1rem;
+    border: none;
+    outline: none;
+    width: 400px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+}
+
 .app__navbar-cart{
     position: relative;
     width: 50px;
