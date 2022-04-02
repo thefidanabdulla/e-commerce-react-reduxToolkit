@@ -17,7 +17,7 @@ const CartItem = ({ id, paramsCart }) => {
     }else{
         dispatch(decrementCartItemQuantity(id))
     }
-  }
+  } 
   return (
 
     <div className='app__cartItem'>

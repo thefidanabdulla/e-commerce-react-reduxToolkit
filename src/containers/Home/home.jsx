@@ -1,12 +1,14 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import Product from "../../components/product/Product";
+import SideBar from "../../components/sideBar/SideBar";
 import "./home.css";
 
 function Home() {
   const products = useSelector((state) => state.products.products);
   return (
-    <div className="app__home page__height section__padding">
+    <div className="app__home page__height">
+      <SideBar />
       <div className="app__home-productsContainer">
         {products.map((item) => (
           <Product

@@ -1,0 +1,25 @@
+.app__sideBar{
+    min-width: 300px;
+    height: calc(100vh - 165px);
+    border-right: 1px solid #ccc;
+}
+.app__sideBar h2{
+    font-size: 2rem;
+    color: rgba(0, 0, 0, .8);
+    margin: 1rem;
+}
+.app__sideBar-menuItem{
+    padding: 1rem;
+    color: rgba(0, 0, 0, .9);
+    border-bottom: 1px solid #ccc;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+.app__sideBar-menuItem:hover{
+    cursor: pointer;
+    background-color: rgb(241, 241, 241);
+    
+}

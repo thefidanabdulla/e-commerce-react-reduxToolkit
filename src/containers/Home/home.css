@@ -1,4 +1,12 @@
+.app__home{
+    display: flex;
+    gap: 20px;
+}
 .app__home-productsContainer{
+    height: calc(100vh - 165px);
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;  
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 50px;
