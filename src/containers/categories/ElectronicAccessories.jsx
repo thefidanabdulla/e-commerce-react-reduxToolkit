@@ -2,12 +2,13 @@ import React from 'react'
 import { useSelector } from 'react-redux';
 import Product from '../../components/product/Product';
 import './category.css'
-const ArtCraft = () => {
-    const artData =  useSelector(state => state.products.filteredArtCraft);
+const ElectronicAccessories = () => {
+    const electronicData =  useSelector(state => state.products.filteredElectronicAccessories);
+    console.log(electronicData);
     return (
         <div className="app__category page__height">
             
-            {artData.map((item) => (
+            {electronicData.map((item) => (
               <Product
                 desciption={item.productDescription}
                 image={item.productImage}
@@ -20,4 +21,5 @@ const ArtCraft = () => {
       );
 }
 
-export default ArtCraft;
+
+export default ElectronicAccessories;

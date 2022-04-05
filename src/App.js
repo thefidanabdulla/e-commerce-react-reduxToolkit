@@ -14,6 +14,7 @@ import CameraPhotography from './containers/categories/CameraPhotography';
 import TelephoneTablet from './containers/categories/TelephoneTablet';
 import SmartHome from './containers/categories/SmartHome';
 import ArtCraft from './containers/categories/ArtCraft';
+import ElectronicAccessories from './containers/categories/ElectronicAccessories';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path='/camera_photography' element={<CameraPhotography />}/>
         <Route path='/telephone_tablet' element={<TelephoneTablet />}/>
         <Route path='/smartHome' element={<SmartHome />}/>
+        <Route path='/electronic__accessories' element={<ElectronicAccessories />}/>
         <Route path='/art_craft' element={<ArtCraft />}/>
         <Route path='*' element={<NotFound />} />
       </Routes>

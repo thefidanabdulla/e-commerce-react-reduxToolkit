@@ -3,8 +3,9 @@
     gap: 20px;
 }
 .app__home-productsContainer{
+    padding: 1rem;
     height: calc(100vh - 165px);
-    overflow: scroll;
+    overflow-y: scroll;
     -ms-overflow-style: none;
     scrollbar-width: none;  
     display: grid;

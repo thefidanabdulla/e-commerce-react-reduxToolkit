@@ -8,7 +8,7 @@ function Home() {
   const products = useSelector((state) => state.products.products);
   return (
     <div className="app__home page__height">
-      <SideBar />
+      <SideBar products={products} />
       <div className="app__home-productsContainer">
         {products.map((item) => (
           <Product

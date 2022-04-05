@@ -1,28 +1,37 @@
 import React from "react";
+import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
+import { filteredComp, filteredCamera, filteredArt, filteredSmartHome, filteredTell, filteredElectronic } from "../../features/productSlice";
 import "./sideBar.css";
 
 const SideBar = () => {
+
+  const dispatch = useDispatch();
+
   return (
     <div className="app__sideBar">
       <h2>Categories</h2>
-      <Link to={"/computer_accessories"}>
-        <p className="app__sideBar-menuItem">Computer & Accessories</p>
-      </Link>
       <Link to={"/camera_photography"}>
-        <p className="app__sideBar-menuItem">Camera & Photography</p>
+        <button onClick={() => dispatch(filteredCamera())} className="app__sideBar-menuItem">Camera & Photography</button>
+      </Link>
+      <Link to={"/computer_accessories"}>
+        <button onClick={() => dispatch(filteredComp())} className="app__sideBar-menuItem">Computer & Accessories</button>
+      </Link>
+      <Link to={"/electronic__accessories"}>
+        <button onClick={() => dispatch(filteredElectronic())} className="app__sideBar-menuItem">Electronic Accessories</button>
       </Link>
       <Link to={"/telephone_tablet"}>
-        <p className="app__sideBar-menuItem">Telephone & Tablet</p>
+        <button onClick={() => dispatch(filteredTell())} className="app__sideBar-menuItem">Telephone & Tablet</button>
       </Link>
       <Link to={"/smartHome"}>
-        <p className="app__sideBar-menuItem">Smart Home</p>
+        <button onClick={() => dispatch(filteredSmartHome())} className="app__sideBar-menuItem">Smart Home</button>
       </Link>
       <Link to={"/art_craft"}>
-        <p className="app__sideBar-menuItem">Art & Craft</p>
+        <button onClick={() => dispatch(filteredArt())} className="app__sideBar-menuItem">Art & Craft</button>
       </Link>
+      
     </div>
   );
-};
+}; 
 
 export default SideBar;

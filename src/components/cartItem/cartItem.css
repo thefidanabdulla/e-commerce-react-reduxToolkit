@@ -16,7 +16,7 @@
     border-radius: 15px;
 }
 .app__cartItem-info{
-    width: 70%;
+    width: 80%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -27,6 +27,7 @@
     width: 200px;
 }
 .app__cartItem-info_image img{
+    max-width: 200px;
     height: 100%;
 }
 .app__cartItem-info_about{
