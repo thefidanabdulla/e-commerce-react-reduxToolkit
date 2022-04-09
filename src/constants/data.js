@@ -224,7 +224,7 @@ const products = [
         productDescription: "Apple Watch Series 6 (GPS, 40mm) - (Product) RED - Aluminum Case with (Product) RED - Sport Band",
         productPrice: 199.99,
         productImage: product21,
-        category: "telephone&tablet"
+        category: "electronic_accessories"
     },
     {
         id: 22,
@@ -515,4 +515,4 @@ const products = [
         category: "computer&accessories"
     }
 ]
-export default products;
+export default products; 

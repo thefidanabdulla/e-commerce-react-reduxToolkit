@@ -6,12 +6,14 @@ import "./home.css";
 
 function Home() {
   const products = useSelector((state) => state.products.products);
+  console.log(products);
   return (
     <div className="app__home page__height">
       <SideBar products={products} />
       <div className="app__home-productsContainer">
         {products.map((item) => (
           <Product
+            key={item.id}
             desciption={item.productDescription}
             image={item.productImage}
             name={item.productName}

@@ -1,6 +1,14 @@
 .app__category{
-    padding: 2rem;
+    display: flex;
+    gap: 20px;
+}
+.app__category-productsContainer{
+    padding: 1rem;
+    height: calc(100vh - 165px);
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;  
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 50px;
 }
